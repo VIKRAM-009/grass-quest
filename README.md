@@ -21,7 +21,11 @@ Real weather → an AI-written outdoor mission → you go outside → an AI chec
 </p>
 <p align="center"><i>Pick your city once → get a quest that fits today's real weather (here: light drizzle in Dehradun).</i></p>
 
-<!-- TODO: add a phone screenshot of the photo check result here. -->
+<p align="center">
+  <img src="docs/3-check.png" alt="Photo check: leaf 10/10, keyboard 0/10" width="260">
+</p>
+<p align="center"><i>The photo check: a raindrop on a leaf passes, a keyboard does not.<br>
+<sub>Test photos from Wikimedia Commons: <a href="https://commons.wikimedia.org/wiki/File:Leaf-rain-raindrops-drop-of-water_(24217414932).jpg">leaf</a> (CC0), <a href="https://commons.wikimedia.org/wiki/File:Backlit_keyboard.jpg">keyboard</a> by Colin (CC BY-SA 4.0).</sub></i></p>
 
 ---
 

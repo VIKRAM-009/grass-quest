@@ -194,7 +194,7 @@ PAGE = """<!doctype html>
   .muted { color: #5b6b57; font-size: .9rem; }
   .stats { display: flex; gap: 10px; } .stats div { flex: 1; text-align: center; background: #fff; border-radius: 12px; padding: 10px; }
   .stats b { display: block; font-size: 1.4rem; color: #2f7d32; }
-  button, .btn { display: block; width: 100%; padding: 14px; border: 0; border-radius: 12px; font-size: 1rem;
+  button, .btn { box-sizing: border-box; display: block; width: 100%; padding: 14px; border: 0; border-radius: 12px; font-size: 1rem;
                  background: #2f7d32; color: #fff; text-align: center; text-decoration: none; margin-top: 10px; }
   .btn.light { background: #e3eedd; color: #1d2b1a; }
   input[type=text] { width: 100%; box-sizing: border-box; padding: 12px; border-radius: 10px; border: 1px solid #c5d3bf; font-size: 1rem; }
