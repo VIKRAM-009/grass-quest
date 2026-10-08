@@ -14,7 +14,14 @@ Real weather → an AI-written outdoor mission → you go outside → an AI chec
 
 </div>
 
-<!-- Screenshots: add phone screenshots of the quest, the photo check and the streak here. -->
+<p align="center">
+  <img src="docs/1-setup.png" alt="Pick your city" width="260">
+  &nbsp;&nbsp;
+  <img src="docs/2-quest.png" alt="Today's weather-aware quest" width="260">
+</p>
+<p align="center"><i>Pick your city once → get a quest that fits today's real weather (here: light drizzle in Dehradun).</i></p>
+
+<!-- TODO: add a phone screenshot of the photo check result here. -->
 
 ---
 

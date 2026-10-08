@@ -149,7 +149,9 @@ def make_quest(city, weather, recent):
     return {
         "title": str(q.get("title", "Go Outside")),
         "mission": str(q.get("mission", "Take a short walk and notice three new things.")),
-        "steps": [re.sub(r"^\s*(step\s*)?\d+[:.)]\s*", "", str(s), flags=re.I) for s in steps][:4],
+        # Small models sometimes leak JSON keys like `photo_goal):` into a step, so drop those.
+        "steps": [re.sub(r"^\s*(step\s*)?\d+[:.)]\s*", "", str(s), flags=re.I) for s in steps
+                  if not re.search(r"\b(photo_goal|best_time|minutes|tip)\b\W*[:)]", str(s))][:4],
         "photo_goal": str(q.get("photo_goal", "something interesting you found outside")),
         "minutes": q.get("minutes", 30),
         "best_time": str(q.get("best_time", "")),
